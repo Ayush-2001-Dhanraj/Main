@@ -1,0 +1,391 @@
+body {
+  margin: 0;
+}
+
+/* main section */
+
+main {
+  line-height: 1.5;
+  font-family: 'Roboto Slab', serif;
+}
+
+hr {
+  margin-top: 5%;
+  border-top: 1vw dotted black;
+  width: 12%;
+}
+
+.footer-rule {
+  margin-bottom: 5%;
+}
+
+/* header-section */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.github {
+  transition: 2s;
+}
+
+.github:hover{
+  text-shadow: -2px 2px 5px black,
+              2px -2px 5px red,
+              2px 2px 5px black,
+              15px 5px 10px yellow,
+              2px 2px 5px red;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  background: linear-gradient(45deg, #54123b, #84142d, #29c7ac, #c02739);
+  padding: 1%;
+  width: 100%;
+  top: 0px;
+  margin: 0;
+}
+
+figure {
+  display: inline-block;
+  margin: 0;
+  align-self: center;
+}
+
+nav {
+  display: inline-block;
+  margin: 3% 0 0 12%;
+  align-self: baseline;
+  flex:auto;
+}
+
+.blank {
+  height: 135px;
+  width: 100px;
+}
+
+.style {
+  font-family: 'Metal Mania', cursive;
+}
+
+#header-img {
+  border: 2px solid #29c7ac;
+  max-height: 50%;
+  max-width: 50%;
+  box-shadow: -2px 2px 4px 4px #c02739,
+               2px -2px 4px 4px #29c7ac;
+}
+
+.nav-link {
+  font-size: 1.8vw;
+  margin-left: 2%;
+  text-decoration: none;
+  color: black;
+  font-family: 'Metal Mania', cursive;
+}
+
+.nav-link:hover {
+  color: white;
+  box-shadow: -2px 2px blue,
+               2px -2px red,
+               2px 2px blue,
+               2px 2px red;
+}
+
+
+/* about-section */
+
+
+
+#About {
+  background-color: #b6eb7a;
+  display: grid;
+  grid-template-columns: 50%;
+  justify-content: center;
+  text-align: center;
+  padding: 2%;
+  transition: 2s;
+  margin: 0 1% 0 1%;
+}
+
+.img-caption {
+  font-size: 1vw;
+}
+
+hr {
+  border-top: 2vw dotted black;
+}
+
+.profile-img {
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 100%;
+}
+
+.Intro {
+  font-size: 1.5vw;
+}
+
+#About:hover {
+    background: linear-gradient(45deg, #b6eb7a, #fb7813, #f7f7ee, #17706e);
+  box-shadow: -10px 10px 15px 15px black,
+              10px -10px 15px 5px black,
+              10px 10px 15px 5px black,
+              10px 10px 15px 5px black;
+}
+
+/* Creation */
+
+.box-text {
+  font-weight: 600;
+  font-size: 1.5vw;
+  padding: 2%;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Metal Mania', cursive;
+  font-size: 3vw;
+
+}
+
+.head-shadow {
+  text-shadow: -2px 2px 5px pink,
+              2px -2px 5px red,
+              2px 2px 5px pink,
+              15px 5px 10px yellow,
+              2px 2px 5px red;
+}
+
+h3 {
+  font-family: 'Metal Mania', cursive;
+  font-size: 2vw;
+  background: linear-gradient(45deg, pink, yellow, red, white, red, yellow, pink);
+  margin: 0;
+  margin-bottom: 4%;
+}
+
+.creation-img {
+  max-width: 60%;
+  box-shadow: -3px 1px 4px 4px yellow;
+margin: 2%;
+  transition: 2s;
+}
+
+.creation-img:hover {
+  max-width: 70%;
+  box-shadow: -2px 2px 5px 5px #342b38,
+              2px -2px 5px 5px red,
+              2px 2px 5px 5px #342b38,
+              2px 2px 5px 5px red;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+  margin: 5px 10% 5px 10%;
+}
+
+.box1, .box2, .box3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2%;
+  box-shadow: -2px 2px 8px 8px red,
+              2px -2px 8px 8px yellow,
+              2px 2px 8px 8px #d92027,
+              2px 2px 8px 8px yellow,
+              2px 2px 8px 8px #d92027,
+              2px 2px 8px 8px red;
+ flex: calc(100% / 3);
+
+}
+
+
+/* Contact */
+
+#Contact {
+  margin: 4% 18%;
+  text-align: center;
+}
+
+legend {
+  text-align: center;
+  font-family: 'Metal Mania', cursive;
+  font-size: 3vw;
+  text-shadow: -2px 2px 5px pink,
+              2px -2px 5px red,
+              2px 2px 5px pink,
+              15px 5px 10px yellow,
+              2px 2px 5px red;
+}
+
+#form {
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+input, label {
+  margin: 2%;
+}
+
+textarea {
+  display: block;
+  height: 30%;
+  width: 50%;
+  margin: auto;
+}
+
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background: repeating-linear-gradient(44deg, red, yellow 20%, pink 20%, white 40%, pink 40%);
+  padding: 4%;
+  transition: 2s;
+}
+
+.footer-text {
+  font-size: 1.7vw;
+  margin: 2% 18%;
+  font-weight: 900;
+  text-shadow: -4px 2px 5px pink,
+              4px -2px 5px red,
+              4px 2px 5px pink,
+              15px 5px 10px yellow,
+              2px 2px 5px red;
+}
+
+.fab {
+  font-size: 2.2vw;
+  margin-left: 2%;
+  color: white;
+  text-shadow: -4px 2px 5px red,
+              4px -2px 5px black,
+              4px 2px 5px black,
+              4px 5px 10px black,
+              4px 2px 5px red;
+}
+
+footer:hover {
+  box-shadow: -2px 2px 8px 8px red,
+              2px -2px 8px 8px yellow,
+              2px 2px 8px 8px pink,
+              2px 2px 8px 8px white,
+              2px 2px 8px 8px pink,
+              2px 2px 8px 8px red;
+}
+
+#submit {
+  border-radius: 20px;
+  font-size: 2vw;
+  padding: 1%;
+  color: white;
+  background: linear-gradient(45deg, black, brown, red, black);
+  box-shadow: -2px 2px 8px 8px red,
+              2px -2px 8px 8px yellow,
+              2px 2px 8px 8px pink,
+              2px 2px 8px 8px white,
+              2px 2px 8px 8px pink,
+              2px 2px 8px 8px red;
+  transition: 2s;
+}
+
+#submit:hover {
+  background: linear-gradient(45deg, red, black, black, black);
+  box-shadow: -2px 2px 8px 8px black,
+              2px -2px 8px 8px black,
+              2px 2px 8px 8px brown,
+              2px 2px 8px 8px white,
+              2px 2px 8px 8px black,
+              2px 2px 8px 8px red;
+}
+
+
+/* media query */
+
+
+@media screen and (max-width: 900px) {
+
+  #About {
+    background: linear-gradient(45deg, #b6eb7a, #fb7813, #f7f7ee, #17706e);
+    grid-template-columns: 75%;
+    border: 4px solid red;
+  }
+  .github {
+    text-decoration: underline;
+  }
+  .footer-text {
+    font-size: 3vw;
+    margin: 2% 10%;
+  }
+  .fab {
+    font-size: 5vw;
+  }
+  header {
+    display: block;
+    text-align: center;
+  }
+  #form {
+    font-size: 3vw;
+  }
+  legend {
+    font-size: 7vw;
+  }
+  .blank {
+    height: 175px;
+  }
+  #submit {
+    font-size: 4vw;
+    margin-top: 2%;
+  }
+  #header-img {
+    max-width: 30%;
+    max-height: 30%;
+    border-radius: 10%;
+  }
+  h2 {
+    font-size: 7vw;
+  }
+  h3 {
+    font-size: 5vw;
+  }
+  .box-text {
+    font-size: 3vw;
+  }
+  textarea {
+    margin-bottom: 2.5%;
+  }
+  .box1, .box2, .box3 {
+    margin: 8%;
+  }
+  .container figcaption {
+    font-size: 2.5vw;
+  }
+  nav {
+    margin: 4%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .profile-img {
+    max-height: 40%;
+    max-width: 40%;
+    border: 4px solid red;
+  }
+  .img-caption{
+    font-size: 2.5vw;
+  }
+  .Intro {
+    font-size: 3vw;
+  }
+  .nav-link {
+    font-size: 3vw;
+  }
+}
